@@ -2,7 +2,7 @@
 
 var Physics = require('impulse')
 var OriDomi = require('oridomi')
-var folded = new OriDomi(document.querySelector('.cover'), { speed: 0, ripple: 0, touchEnabled: false, perspective: 800 })
+var folded = new OriDomi(document.querySelector('.cover'), { vPanels: 5, speed: 0, ripple: 0, touchEnabled: false, perspective: 800 })
 var lastPercent = 1
 folded.accordion(0)
 
